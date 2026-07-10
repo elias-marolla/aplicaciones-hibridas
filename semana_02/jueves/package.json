@@ -14,6 +14,7 @@
   "author": "Elias Marolla",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "express": "^5.2.1"
   }
 }
