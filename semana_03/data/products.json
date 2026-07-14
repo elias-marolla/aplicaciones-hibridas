@@ -1,0 +1,23 @@
+[
+  {
+    "id": "361f4525-818d-45fa-87d0-dd4f8d3e20a2",
+    "name": "Mouse",
+    "description": "Componente para mover en la pantalla donde uno hace click",
+    "price": 12,
+    "stock": 30
+  },
+  {
+    "id": "f856c494-4435-4578-9adc-102ddddad08e",
+    "name": "Teclado",
+    "description": "Teclado con letras",
+    "price": 22,
+    "stock": 15
+  },
+  {
+    "id": "2b2db8a3-e373-464a-bcb2-55bfc190d1ae",
+    "name": "chuflito",
+    "description": "el mas chuflito",
+    "price": 7500,
+    "stock": 10
+  }
+]
