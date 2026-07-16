@@ -1,0 +1,25 @@
+[
+  {
+    "name": "test",
+    "email": "test@gmail.com",
+    "password": "1234"
+  },
+  {
+    "id": "1746ee42-37a8-4c11-a326-7f402e9266c8",
+    "name": "chuflito2",
+    "email": "chuflito@gmail.com",
+    "password": "7500"
+  },
+  {
+    "id": "0ac820c9-532c-46ac-aede-14b71903e8c2",
+    "name": "chuflito2",
+    "email": "chuflito@gmail.com",
+    "password": "7500"
+  },
+  {
+    "id": "9bc90d44-08ce-4003-9b3b-d59a0be6f466",
+    "name": "test2",
+    "email": "chuflito@gmail.com",
+    "password": "7500"
+  }
+]
