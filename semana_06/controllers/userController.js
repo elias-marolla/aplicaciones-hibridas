@@ -114,9 +114,13 @@ const deleteUserById = async (req, res) =>{
 const updateUserById = async(req, res) =>{
     try {
         const { id } = req.params;
-        const { name, password } = req.body;
+        const { name, password, userAuthID } = req.body;
+        
+        if(id != userAuthID){
+            return res.status(403).json({  msg: "El usuario no tiene permitido modificar" })
+        }
         if(!name||!password){
-            res.status(401).json({ msg: "Faltan campos obligatorios" })
+            return res.status(401).json({ msg: "Faltan campos obligatorios" })
         }
         const hash = await bcrypt.hash(password, salt);
 
